@@ -1,0 +1,41 @@
+
+body { 
+  background: url("../img/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#findSong {
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #dbdbdb;
+}
+
+input {
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+	display: block;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+header img {
+	width: 75%;
+}
+
+header {
+	text-align: center;
+}
+
+
+
+
+
