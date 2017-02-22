@@ -1,13 +1,25 @@
 
 function search () {
+
+	document.getElementById('songResults').innerHTML = " "
+
+
+	// var elem = document.getElementById("songResults");
+	// elem.parentNode.removeChild(elem);
+
+	// var x = document.getElementsByClassName("col-md-4");
+	// x.remove();
+
+	// document.getElementById("songResults").className += "oldSearch"
+
 	var input = document.getElementById('input').value
 
-$.ajax({url: "https://itunes.apple.com/search?term=" + "old " + input, 
+
+$.ajax({url: "https://itunes.apple.com/search?term= " + input, 
 	dataType: "jsonp",
 		success: function(data){
 			
 			console.log(data)
-
 			for(var i=0; i<data.results.length; i++){
 				var div = document.createElement('div')
 				div.className = "col-md-4"
@@ -23,12 +35,10 @@ $.ajax({url: "https://itunes.apple.com/search?term=" + "old " + input,
 
        		type: 'GET'
 
-   		// error: function(error){
-   		// 	console.log(error)
-   		// }
-
 
 });
+
+document.getElementById("form").reset();
 
 }
 

@@ -7,14 +7,17 @@ body {
   background-size: cover;
 }
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
 #findSong {
 	text-align: center;
 	margin: 0 auto;
+	margin-bottom: 10%;
 }
 
-h1 {
-	color: #dbdbdb;
-}
 
 input {
 	width: 400px;
@@ -23,16 +26,36 @@ input {
 	display: block;
 }
 
-.col-md-4 {
-	text-align: center;
-}
-
 header img {
 	width: 75%;
 }
 
 header {
 	text-align: center;
+}
+
+h2{
+	height: 30px;
+	color: #5a5a5a;
+}
+h1 {
+	color: #dbdbdb;
+	height: 30px;
+}
+
+h3{
+	height: 30px;
+	color: #5a5a5a;
+}
+
+
+.col-md-4 {
+	text-align: center;
+	margin-top: 50px;
+	background-color: #fafafa;
+	padding: 1%;
+	margin: 0;
+	border: 5px solid #5a5a5a;
 }
 
 
